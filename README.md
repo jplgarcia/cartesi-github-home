@@ -36,5 +36,6 @@ Cartesi is developed as an open-source public good, with infrastructure availabl
 - [Developer community](https://discord.gg/cartesi): ask questions and discuss what you are building.
 
 Contributions are welcome through each repository's contribution guidelines.
-Licenses vary by component: the Machine emulator uses LGPL-3.0 and rollups contracts use Apache-2.0.
-See each repository for its license terms.
+Licenses vary by component: the [Machine emulator](https://github.com/cartesi/machine-emulator/blob/main/COPYING) uses LGPL-3.0; [Dave](https://github.com/cartesi/dave/blob/main/LICENSE), [Rollups Contracts](https://github.com/cartesi/rollups-contracts/blob/main/LICENSE), and the [CLI](https://github.com/cartesi/cli/blob/prerelease/v2-alpha/LICENSE) use Apache-2.0.
+Cartesi-authored [Rollups Node code](https://github.com/cartesi/rollups-node/blob/main/LICENSE) uses Apache-2.0 or compatible permissive licenses; its [README](https://github.com/cartesi/rollups-node#license) also documents GPL-3.0 requirements for the combined component due to dependencies.
+See each repository for its full license terms and dependency notices.
