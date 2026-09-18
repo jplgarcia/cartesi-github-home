@@ -64,7 +64,3 @@ The table below lists the repositories in the current stack, with a short purpos
 As of mid-2026, the Rollups **v2** stack is progressing through coordinated alpha releases across the node, contracts, fraud-proof system, CLI/SDK, explorer, and TypeScript clients. Cartesi Machine components, including the emulator, Solidity step, and guest tools, continue to publish production releases used by the v2 stack.
 
 Join the [Cartesi Discord](https://discord.gg/cartesi) for community discussion, questions, and updates on the stack.
-
----
-
-Originally prepared by [Shaheen Ahmed](https://github.com/riseandshaheen). Imported from the [engineering map at revision `22a55d6`](https://github.com/riseandshaheen/cartesi-engineering-docs/blob/22a55d640e8f59238e1be3fdbf59879c0dd21ac0/README.md) on 18 September 2026.
