@@ -1,5 +1,3 @@
-![Cartesi Engineering Map](assets/banner-2.png)
-
 # Cartesi Engineering Map
 
 [Back to Cartesi overview](README.md)
