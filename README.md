@@ -15,7 +15,7 @@ Its Linux execution environment gives applications access to a filesystem, memor
 It provides a reproducible execution environment for applications built with languages and libraries available for RISC-V Linux.
 Independent validators can reproduce computations and check their results.
 
-**[Cartesi Rollups](https://docs.cartesi.io/cartesi-rollups/2.0/getting-started/architecture/)** combines the Machine, smart contracts, and the Cartesi Rollups Node into an SDK for application-specific rollups.
+**Cartesi Rollups** combines the Machine, [smart contracts](https://github.com/cartesi/rollups-contracts), and the [Cartesi Rollups Node](https://github.com/cartesi/rollups-node) into an SDK for application-specific rollups.
 Each application has its own Machine and state.
 The node reads inputs recorded on the base chain, executes the application off-chain, and submits claims about the results for on-chain settlement.
 Deployment and node operation are permissionless: anyone can deploy an application and run a node.
@@ -28,9 +28,6 @@ Cartesi is also researching zero-knowledge (ZK) proofs of Machine state transiti
 
 Cartesi is developed as an open-source public good, with infrastructure available for anyone to use, inspect, and contribute to.
 
-- [Cartesi Machine](https://github.com/cartesi/machine-emulator): explore the execution environment and use it independently.
-- [Rollups Node](https://github.com/cartesi/rollups-node): run the node software connecting on-chain inputs, Machine execution, and application clients.
-- [Rollups Contracts](https://github.com/cartesi/rollups-contracts): explore the smart contracts for application inputs and settlement.
 - [CLI](https://github.com/cartesi/cli): create, build, and run an application.
 - [Engineering map](ENGINEERING_MAP.md): find repositories, component status, and dependencies.
 - [Developer community](https://discord.gg/cartesi): ask questions and discuss what you are building.
