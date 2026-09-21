@@ -15,14 +15,14 @@ Its Linux execution environment gives applications access to a filesystem, memor
 It provides a reproducible execution environment for applications built with languages and libraries available for RISC-V Linux.
 Independent validators can reproduce computations and check their results.
 
-**[Cartesi Rollups](https://docs.cartesi.io/cartesi-rollups/2.0/getting-started/architecture/)** combines the Machine, smart contracts, and the Cartesi Rollups Node into an application-specific rollup.
+**[Cartesi Rollups](https://docs.cartesi.io/cartesi-rollups/2.0/getting-started/architecture/)** combines the Machine, smart contracts, and the Cartesi Rollups Node into an SDK for application-specific rollups.
 Each application has its own Machine and state.
 The node reads inputs recorded on the base chain, executes the application off-chain, and submits claims about the results for on-chain settlement.
+Deployment and node operation are permissionless: anyone can deploy an application and run a node.
 
 **[Dave](https://github.com/cartesi/dave)** is Cartesi's permissionless fraud-proof system.
-Applications using PRT (Permissionless Refereed Tournaments) allow anyone to validate execution and dispute incorrect results through an on-chain Machine verifier.
-
-**Zero-knowledge (ZK) research** explores proofs of Cartesi Machine state transitions as an additional approach to verifiable computation.
+Applications using it allow anyone to validate execution and dispute incorrect results through an on-chain Machine verifier.
+Cartesi is also researching zero-knowledge (ZK) proofs of Machine state transitions as another approach to verifying computation.
 
 ## Explore and contribute
 
