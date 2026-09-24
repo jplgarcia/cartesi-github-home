@@ -2,13 +2,24 @@
 
 [Back to Cartesi overview](README.md)
 
-**Presentation options:** without overview table (this version) · [with overview table](ENGINEERING_MAP-ALTERNATIVE.md)
+**Presentation options:** [without overview table](ENGINEERING_MAP.md) · with overview table (this version)
 
 [Cartesi](https://cartesi.io) enables appchain rollups built with the languages, libraries, and tools you know and love. It runs computation inside a deterministic RISC-V virtual machine with a full Linux runtime while retaining Ethereum’s security guarantees.
 
 This page provides a curated map of the repositories that make up and support Cartesi’s current engineering stack, with a particular focus on the **Rollups v2** architecture under active integration as of mid-2026.
 
 > **Note:** This map is not exhaustive. Older, supporting, and superseded repositories remain public and open source on [`github.com/cartesi`](https://github.com/cartesi) for anyone to inspect, build on, or continue developing.
+
+## Current engineering stack
+
+| Core Protocol | Tools & Resources |
+| --- | --- |
+| [`machine-emulator`](https://github.com/cartesi/machine-emulator) | [`cli`](https://github.com/cartesi/cli) |
+| [`machine-solidity-step`](https://github.com/cartesi/machine-solidity-step) | [`docs`](https://github.com/cartesi/docs) |
+| [`rollups-contracts`](https://github.com/cartesi/rollups-contracts) | [`rollups-ts`](https://github.com/cartesi/rollups-ts) |
+| [`dave`](https://github.com/cartesi/dave) | [`application-templates`](https://github.com/cartesi/application-templates) |
+| [`rollups-node`](https://github.com/cartesi/rollups-node) | [`rollups-explorer`](https://github.com/cartesi/rollups-explorer) |
+| [`sequencer`](https://github.com/cartesi/sequencer) |  |
 
 ## How the pieces fit
 
