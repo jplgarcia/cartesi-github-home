@@ -8,13 +8,7 @@ This page provides a curated map of the repositories that make up and support Ca
 
 > **Note:** This map is not exhaustive. Older, supporting, and superseded repositories remain public and open source on [`github.com/cartesi`](https://github.com/cartesi) for anyone to inspect, build on, or continue developing.
 
-## Current engineering stack
-
-The diagram below shows the main repositories in the stack, grouped into **Core Protocol** (what runs the stack) and **Tools & Resources** (what you use to build on it).
-
-![Cartesi Rollups v2 engineering stack](assets/engineering-stack-white.png)
-
-### How the pieces fit
+## How the pieces fit
 
 1. **Cartesi Machine** - Deterministic RISC-V + Linux execution ([`machine-emulator`](https://github.com/cartesi/machine-emulator)), with an on-chain micro-architecture step verifier ([`machine-solidity-step`](https://github.com/cartesi/machine-solidity-step)) and guest-side tooling / rootfs ([`machine-guest-tools`](https://github.com/cartesi/machine-guest-tools), [`machine-linux-image`](https://github.com/cartesi/machine-linux-image), [`machine-rootfs-image`](https://github.com/cartesi/machine-rootfs-image)).
 2. **Rollups Contracts** - L1 data availability (`InputBox`), application settlement, asset portals, and Authority / Quorum consensus and emergency-withdrawal primitives. ([`rollups-contracts`](https://github.com/cartesi/rollups-contracts)).
